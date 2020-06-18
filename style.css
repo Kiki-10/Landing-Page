@@ -36,15 +36,17 @@ body {
     color: red;
 }
 
-..menu {
+.menu {
     float: right;
+    position: absolute;
+    left: 120px;
 }
 
 .menu ul li{
     display: inline-block;
-    margin-right: 100px;
     margin-top: 13px;
     transform: translateX(450px);
+    margin-left: 130px;
 }
 
 .menu ul li a {
