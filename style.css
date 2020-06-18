@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Container 1/Navigasi */
+
+.container-satu::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container-satu {
+    width: 100%;
+    height: 100px;
+    background-color: dimgray;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-bottom: 3px solid red;
+}
+
+.container-satu .logo {
+    color: seashell;
+    font-size: 35px;
+    font-weight: bold;
+    float: left;
+    line-height: 100px;
+    transform: translateY(-20px);
+    padding-left: 50px;
+}
+
+.logo span {
+    color: red;
+}
+
+..menu {
+    float: right;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 13px;
+    transform: translateX(450px);
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: seashell;
+}
+
+.menu ul li a:hover {
+    color: red;
+}
+
+/* Container 2/Banner */
+
+.container-dua::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.container-dua {
+    color: seashell;
+    background-image: url(hero.jpg);
+    background-size: cover;
+    height: 500px;
+    background-position: 0 -150px;
+}
+
+.container-dua h1 {
+    font-size: 60px;
+    float: left;
+    transform: translateY(100px);
+    position: absolute;
+    left: 300px;
+}
+.container-dua h2 {
+    font-size: 60px;
+    float: left;
+    transform: translateY(145px);
+    position: absolute;
+    left: 600px;
+}
+
+.container-dua p {
+    width: 1000px;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    transform: translateY(300px);
+    position: absolute;
+    left: 200px;
+}
+
+/* Container 3/Subscribe */
+
+.container-tiga::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container-tiga {
+    background-color: dimgray;
+    width: 100;
+    height: 90px;
+}
+
+.container-tiga .note {
+    color: seashell;
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    margin-left: 100px;
+}
+
+.container-tiga .cari {
+    float: left;
+    transform: translateY(30px);
+    position: absolute;
+    right: 120px;
+}
+
+.container-tiga .cari input {
+    border: none;
+    width: 300px;
+    height: 30px;
+}
+
+.container-tiga .cari button {
+    border: none;
+    background-color: red;
+    color: seashell;
+    width: 100px;
+    height: 33px;
+    margin-left: 3px;
+}
+
+/* Container 4/Main */
+
+.container-empat::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container-empat {
+    max-width: 100%;
+    background-color: rgb(236, 234, 234);
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.container-empat .html img {
+    width: 250px;
+    height: 200px;
+    margin-left: 80px;
+
+}
+
+.container-empat .css img {
+    width: 190px;
+    height: 190px;
+    margin-left: 100px;
+}
+
+.container-empat .desk img {
+    width: 200px;
+    margin-left: 100px;
+}
+
+
+.container-empat h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container-empat p {
+    text-align: center;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.container-empat .html {
+    float: left;
+    width: 30%;
+    margin-left: 50px;
+}
+
+.container-empat .css {
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+}
+
+.container-empat .desk {
+    float: right;
+    width: 30%;
+    margin-right: 50px;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: red;
+    color: seashell;
+    margin-top: -20px;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 60px;
+}
